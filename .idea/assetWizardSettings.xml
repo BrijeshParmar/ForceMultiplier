@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="69" />
+                                                <entry key="scalingPercent" value="61" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -34,12 +34,13 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="fbff28" />
-                                      <entry key="backgroundLayerName" value="ic_launcher_backfm" />
-                                      <entry key="foregroundImage" value="D:\SEM - 8\IBM\Images\appiconf.png" />
-                                      <entry key="foregroundLayerName" value="ic_launcher_fm" />
+                                      <entry key="backgroundColor" value="fffdff" />
+                                      <entry key="backgroundLayerName" value="ic_launcher_backfm_new" />
+                                      <entry key="foregroundImage" value="D:\SEM - 8\IBM\Images\mbappicon.png" />
+                                      <entry key="foregroundLayerName" value="ic_launcher_fm_new" />
                                       <entry key="legacyIconShape" value="CIRCLE" />
-                                      <entry key="outputName" value="appiconfm" />
+                                      <entry key="outputName" value="appiconnew" />
+                                      <entry key="previewDensity" value="HIGH" />
                                       <entry key="webIconShape" value="CIRCLE" />
                                     </map>
                                   </option>

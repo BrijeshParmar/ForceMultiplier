@@ -13,20 +13,26 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/appiconfm_round"
+        android:icon="@mipmap/appiconnew_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/appiconfm_round"
+        android:roundIcon="@mipmap/appiconnew_round"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
+        android:launchMode="singleInstance"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/app_name">
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
         </activity>
         <activity
             android:name=".FieldDashBoard"
@@ -57,6 +63,9 @@
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorPrimary" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
 
     </application>
